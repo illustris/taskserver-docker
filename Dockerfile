@@ -10,3 +10,4 @@ RUN make install
 RUN apk add gnutls-utils
 ADD run.sh /
 ADD setup.sh /
+CMD /run.sh
